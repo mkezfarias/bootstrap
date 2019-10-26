@@ -28,6 +28,10 @@ li.hhlink :hover {
     padding: 1rem 0 !important;
 }
 
+.mainmenu > * {
+    font-size:1.4vw;
+}
+
 @media (min-width: 768px) {
 .right {
     position: sticky;
