@@ -27,3 +27,10 @@ li.hhlink :hover {
 .card-body {
     padding: 1rem 0 !important;
 }
+
+@media (min-width: 768px) {
+.right {
+    position: sticky;
+    top: -2000px;
+}
+}
