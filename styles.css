@@ -1,50 +1,50 @@
 nav {
-    margin: 0 !important;
-    padding: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 li.hhlink :hover {
-    color:red !important;
+  color: red !important;
 }
 
 .feat-img {
-    width: 100%;
+  width: 100%;
 }
 
 .card-text {
-    font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .bg-light {
-    background-color: #f4f5f7 !important;
+  background-color: #f4f5f7 !important;
 }
 
 .card {
-    border: none !important;
-    background-color: transparent;
+  border: none !important;
+  background-color: transparent;
 }
 
 .card-body {
-    padding: 1rem 0 !important;
+  padding: 1rem 0 !important;
 }
 
 .mainmenu > * {
-    font-size:1.4vw;
+  font-size: 1.4vw;
 }
 
 @media (min-width: 1008px) {
 .ststst {
-    position: sticky!important;
-    top: 50px;
+  position: sticky !important;
+  top: 50px;
 }
 }
 
 .text-danger {
-    color: red !important;
+  color: red !important;
 }
 
 .flin {
-    color: gray !important;
-    border-right: 1px solid lightgray;
-    font-size: 14px;
+  color: gray !important;
+  border-right: 1px solid lightgray;
+  font-size: 14px;
 }
