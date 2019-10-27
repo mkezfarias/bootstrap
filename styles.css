@@ -33,10 +33,10 @@ li.hhlink :hover {
 }
 
 @media (min-width: 1008px) {
-.ststst {
-  position: sticky !important;
-  top: 50px;
-}
+  .ststst {
+    position: sticky !important;
+    top: 50px;
+  }
 }
 
 .text-danger {
