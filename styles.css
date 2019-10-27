@@ -32,10 +32,10 @@ li.hhlink :hover {
     font-size:1.4vw;
 }
 
-@media (min-width: 768px) {
-.right {
-    position: sticky;
-    top: -2000px;
+@media (min-width: 1008px) {
+.ststst {
+    position: sticky!important;
+    top: 50px;
 }
 }
 
