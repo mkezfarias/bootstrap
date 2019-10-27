@@ -38,3 +38,13 @@ li.hhlink :hover {
     top: -2000px;
 }
 }
+
+.text-danger {
+    color: red !important;
+}
+
+.flin {
+    color: gray !important;
+    border-right: 1px solid lightgray;
+    font-size: 14px;
+}
