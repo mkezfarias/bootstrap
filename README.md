@@ -37,9 +37,9 @@
     <a href="https://github.com/mkezmkez/bootstrap"><strong>Explore the docs »</strong></a>
 <br>
 <br> 
-    <a href="https://raw.githack.com/mkezmkez/design-teardown/tree/smashing">View Demo</a>
+    <a href="https://raw.githack.com/mkezmkez/bootstrap/boot/index.html">View Demo</a>
 <br> 
-    <a href="https://github.com/mkezmkez/design-teardown/issues">Request Feature</a>
+    <a href="https://github.com/mkezmkez/bootstrap/issues">Request Feature</a>
   </p>
 
 
@@ -61,17 +61,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this project, I created a design layout in black and white, using google fonts, font and text CSS properties, semantic HTML. The project was based in the layout of Smashing Magazzine website <a href="https://www.smashingmagazine.com/"> View Source </a>
-<br>
-Project created using HTML and CSS3
+In this project, I created a clone of the responisve newsweek website using bootstrap, CSS properties, semantic HTML. The project was based in the layout of newsweek  website <a href="https://www.newsweek.com/"> View Source </a>
 <br>
 <br>
-For more details about the YouTube Project and it's requirements go to <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown"> The Odin Project</a>
+For more details about the YouTube Project and it's requirements go to <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap"> The Odin Project</a>
 
 ### Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [BOOTSTRAP](https://getbootstrap.com/docs/4.0/utilities/flex/)
 
 
 
@@ -80,7 +79,7 @@ For more details about the YouTube Project and it's requirements go to <a href="
 
 To get a local copy up and running follow these simple steps.
 
-Clone or fork the repo <https://github.com/mkezmkez/design-teardown/tree/smashing>
+Clone or fork the repo <https://github.com/mkezmkez/bootstrap>
 
 
 <!-- CONTRIBUTING -->
