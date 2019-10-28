@@ -1,14 +1,15 @@
 .hhlink.hhlink.hhlink :hover {
-  color:red;
+  color: red;
 }
 
-.navlink2 { 
+.navlink2 {
   display: block;
   padding: 0.5rem 1rem;
   color: black;
 }
 
-.navlink2:hover, .navlink2:focus {
+.navlink2:hover,
+.navlink2:focus {
   text-decoration: none;
 }
 
@@ -38,7 +39,7 @@
   border-radius: 0.25rem;
 }
 
-.card-body2 { 
+.card-body2 {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1rem 0;
@@ -53,7 +54,7 @@
 }
 
 .flin {
-  color: gray
+  color: gray;
   border-right: 1px solid lightgray;
   font-size: 14px;
 }
