@@ -1,0 +1,107 @@
+.hhlink.hhlink.hhlink :hover {
+  color: red;
+}
+
+.navlink2 {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: black;
+}
+
+.navlink2:hover,
+.navlink2:focus {
+  text-decoration: none;
+}
+
+.feat-img {
+  width: 100%;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.bg-light.bg-light.bg-light {
+  background-color: #f4f5f7;
+}
+
+.card2 {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.card-body2 {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem 0;
+}
+
+.mainmenu > * {
+  font-size: 1.4vw;
+}
+
+.text-dg {
+  color: red;
+}
+
+.flin {
+  color: gray;
+  border-right: 1px solid lightgray;
+  font-size: 14px;
+}
+
+.tss.tss.tss {
+  line-height: 14px;
+}
+
+.row90.row90.row90 {
+  width: 90%;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.ed11 {
+  position: absolute;
+  left: 50vw;
+}
+
+.border-special {
+  border-top: 1px solid lightgray;
+}
+
+.w100.w100.w100.w100 {
+  width: 100%;
+}
+
+.bgred.bgred.bgred.bgred {
+  background-color: red;
+}
+
+.bbbtttnnn {
+  color: rgb(255, 197, 176);
+  font-size: 30px;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.margin0.margin0.margin0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.border-sec {
+  border-color: whitesmoke;
+}
