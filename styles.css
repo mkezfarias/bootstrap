@@ -32,13 +32,6 @@ li.hhlink :hover {
   font-size: 1.4vw;
 }
 
-@media (min-width: 1008px) {
-  .ststst {
-    position: sticky !important;
-    top: 50px;
-  }
-}
-
 .text-danger {
   color: red !important;
 }
