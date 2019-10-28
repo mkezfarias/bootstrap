@@ -48,3 +48,46 @@ li.hhlink :hover {
   border-right: 1px solid lightgray;
   font-size: 14px;
 }
+
+.tss {
+  line-height:14px !important;
+}
+
+.row90 {
+  width: 90% !important;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.ed11 {
+  position: absolute;
+  left: 50vw;
+}
+
+.border-special {
+  border-top: 1px solid lightgray;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+.bgred {
+  background-color:red !important;
+}
+
+.bbbtttnnn {
+  color: rgb(255, 197, 176);
+  font-size: 30px ;
+}
+
+.pos-rel {
+  position:relative;
+}
+
+.margin0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
