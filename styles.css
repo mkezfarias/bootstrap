@@ -43,7 +43,7 @@ li.hhlink :hover {
 }
 
 .tss {
-  line-height:14px !important;
+  line-height: 14px !important;
 }
 
 .row90 {
@@ -68,16 +68,16 @@ li.hhlink :hover {
 }
 
 .bgred {
-  background-color:red !important;
+  background-color: red !important;
 }
 
 .bbbtttnnn {
   color: rgb(255, 197, 176);
-  font-size: 30px ;
+  font-size: 30px;
 }
 
 .pos-rel {
-  position:relative;
+  position: relative;
 }
 
 .margin0 {
