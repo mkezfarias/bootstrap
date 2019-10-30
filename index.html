@@ -1,867 +1,197 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/4f5233a2df.js" crossorigin="anonymous"></script>
-    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+    <title>Cornershop</title>
 </head>
 
 <body>
 
-    <header class="nav-header fixed-top">
-        <nav class="container-fluid">
-            <div class="py-xl-2 p-md-1 flex-nowrap d-flex flex-row justify-content-around align-items-baseline bgred">
-                <div class="text-light d-none d-lg-block d-xl-block">
-                    <h6>Wed, Oct 23, 2019M</h6>
-                </div>
-                <img alt="newsweek logo" class="col-xl-4 col-lg-4 col-4 top-logo pt-lg-3" src="images/newsweek-logo.png">
-                <div class="btn-group">
-                    <button type="button" class="text-nowrap h6 font-weight-bold btn-primary bgred border-0">SIGN IN</button>
-                    <button type="button" class="text-nowrap h6 text-dg font-weight-bold btn-light border-0 btn-light">SUBSCRIBE ></button>
-                </div>
-                <span class="text-light lead d-lg-none d-xl-none "><i class="fas fa-bars bbbtttnnn"></i></span>
+    <header>
+        <nav class="inline bg-white grid grid12 margin-auto border">
+            <img alt="logo" class="col2" src="images/logocorner.PNG">
+            <img alt="home" class="justify-end" src="images/home.PNG">
+            <div class="col3" class="justify-start">
+                <h4 class="gray h4">Mike's List</h4>
+                <h5 class="h6">5 de mayo 2001, Monterrey Mexico</h5>
             </div>
-            <div><img alt="top" src="images/navredthing.PNG" class="float-right d-none d-xl-block d-lg-block"></div>
+            <div class="col3 center">
+                <h1>Maskota</h1>
+            </div>
+            <img alt="avatar" class="justify-end" src="images/avatar.PNG">
+            <div class="inline center">
+                <h4 class="center h3">Account ˅ </h3>
+            </div>
+            <button class="regular-button bg-red almostwhite justify-start"><i class="fas fa-shopping-cart">Cart</i></button>
+            </div>
         </nav>
-        <nav class="container-fluid d-none d-lg-block d-xl-block w100 bg-white">
-            <ul class="mainmenu nav flex-nowrap d-flex">
-                <li class="nav-item h5 font-weight-bolder hhlink border-right py-0 px-3 my-2 flex-shrink-1">
-                    <a class="navlink2 hhlink" href="#">U.S.</a>
-                </li>
-                <li class="nav-item h5 font-weight-bolder hhlink border-right py-0 my-2 flex-shrink-1">
-                    <a class="navlink2 hhlink" href="#">World</a>
-                </li>
-                <li class="nav-item h5 font-weight-bolder hhlink border-right py-0 my-2">
-                    <a class="navlink2 hhlink" href="#">Business</a>
-                </li>
-                <li class="nav-item h5 font-weight-bolder hhlink border-right py-0 my-2">
-                    <a class="navlink2 hhlink" href="#">Tech & Science</a>
-                </li>
-                <li class="nav-item h5 font-weight-bolder hhlink border-right py-0 my-2">
-                    <a class="navlink2 hhlink" href="#">Culture</a>
-                </li>
-                <li class="nav-item h5 font-weight-bolder hhlink border-right py-0 my-2">
-                    <a class="navlink2 hhlink" href="#">Newsgeek</a>
-                </li>
-                <li class="nav-item h5 font-weight-bolder hhlink border-right py-0 my-2">
-                    <a class="navlink2 hhlink" href="#">Sports</a>
-                </li>
-                <li class="nav-item h5 font-weight-bolder hhlink border-right py-0 my-2">
-                    <a class="navlink2 hhlink" href="#">Health</a>
-                </li>
-                <li class="nav-item h5 font-weight-bolder hhlink border-right py-0 my-2">
-                    <a class="navlink2 hhlink" href="#">Opinion</a>
-                </li>
-                <li class="nav-item h5 font-weight-bolder hhlink border-right py-0 my-2">
-                    <a class="navlink2 hhlink" href="#">Vantage</a>
-                </li>
-                <li class="nav-item h6 hhlink py-2 px-2 text-lg-left my-2 text-nowrap text-secondary">
-                    <i class="fas fa-search px-2"></i>Search
-                </li>
-            </ul>
+        <nav class="grid grid12 margin-auto border">
+            <div class="inline col3"><img alt="stores" class="inline justify-start" src="images/stores.PNG"> </div>
+            <input type="text" class="inline center col3 gray" placeholder="Search in Maskota"> </input>
+            <button class="center background-gray regular-button background-gray">Featured</button>
+            <button class="center bg-white regular-button background-gray">Aisles</button>
+            <button class="center bg-white regular-button background-gray">Orders</button>
         </nav>
     </header>
 
-    <main class="container-fluid mt-xl-5 pt-xl-5 mt-lg-5 pt-xl-5 pt-md-5 pt-md-5">
+    <main class="bg-ligthergray">
+        <section class="grid2">
+            <h4 class="h4 justify-end"> Less than 2 hours </h4>
+            <h4 class="h5 justify-start"> Pricing Policy </h4>
+        </section>
 
-        <div id="first-half" class="mt-xl-5 pt-xl-5 mt-lg-5 pt-xl-5 pos-rel row mx-auto">
-            <div id="left" class="row mx-4 mr-lg-2 col-12 col-lg-12 col-md-12 col-xl-8 p-4 px-md-0 mx-md-0 px-lg-0">
-                <div id="featured-stories" class="col-12 col-xl-6 col-lg-6 order-2">
-                    <div class="block-title h6 text-secondary pl-0 col-12">FEATURED STORIES</div>
-                    <article class="card2">
-                        <h3 class="d-none">featured article</h3>
-                        <img class="card-img-top img-fluid feat-img" src="images/f1.PNG" alt="featured story">
-                        <div class="card-body2">
-                            <h4 class="card-title">Pastor Warns 'There's Gonna Be Violence in America' If Trump Is Removed</h4>
-                            <p class="card-text">"The Trump supporters are going to hunt them down," Rick Wiles said. "It's going to happen and this country is going to be plunged into darkness."</p>
-                        </div>
-                    </article>
-                    <article class="card2">
-                        <h3 class="d-none">featured article</h3>
-                        <img class="card-img-top img-fluid feat-img" src="images/f2.PNG" alt="featured story">
-                        <div class="card-body2">
-                            <h4 class="card-title">Syrian Kurdish Refugee Sets Himself on Fire Outside U.N. Building</h4>
-                            <p class="card-text">"The Trump supporters are going to hunt them down," Rick Wiles said. "It's going to happen and this country is going to be plunged into darkness."</p>
-                        </div>
-                    </article>
-                    <article class="card2">
-                        <h3 class="d-none">featured article</h3>
-                        <img class="card-img-top img-fluid feat-img" src="images/f3.PNG" alt="featured story">
-                        <div class="card-body2">
-                            <h4 class="card-title">Best Customer Service 2020</h4>
-                            <p class="card-text">"The Trump supporters are going to hunt them down," Rick Wiles said. "It's going to happen and this country is going to be plunged into darkness."</p>
-                        </div>
-                    </article>
-                    <article class="card2">
-                        <h3 class="d-none">featured article</h3>
-                        <img class="card-img-top img-fluid feat-img" src="images/f4.PNG" alt="featured story">
-                        <div class="card-body2">
-                            <h4 class="card-title">Why Haven’t You Thought About Coding?</h4>
-                            <p class="card-text">"The Trump supporters are going to hunt them down," Rick Wiles said. "It's going to happen and this country is going to be plunged into darkness."</p>
-                        </div>
-                    </article>
-                    <article class="card2">
-                        <h3 class="d-none">featured article</h3>
-                        <img class="card-img-top img-fluid feat-img" src="images/f5.PNG" alt="featured story">
-                        <div class="card-body2">
-                            <h4 class="card-title h5">Which Global Universities are Leading the Way in 2019?</h4>
-                            <p class="card-text">"The Trump supporters are going to hunt them down," Rick Wiles said. "It's going to happen and this country is going to be plunged into darkness."</p>
-                        </div>
-                    </article>
-                    <article class="card2">
-                        <h3 class="d-none">featured article</h3>
-                        <img class="card-img-top img-fluid feat-img" src="images/f6.PNG" alt="featured story">
-                        <div class="card-body2">
-                            <h4 class="card-title h5">Pastor Warns 'There's Gonna Be Violence in America' If Trump Is Removed</h4>
-                            <p class="card-text">"The Trump supporters are going to hunt them down," Rick Wiles said. "It's going to happen and this country is going to be plunged into darkness."</p>
-                        </div>
-                    </article>
-                </div>
+        <section class="promos grid6 gap margin-auto">
+            <h4 class="d-none">Promotions</h4>
+            <div class="col2"> <img alt="Promo1" class="col2 rounded-img" src="images/promo1.jpg">
+                <p class="almostwhite h1 center" style="position: relative; top: -80px;">Gifts for the ones you love!</p>
+            </div>
+            <div class="col2"> <img alt="Promo2" class="col2 rounded-img" src="images/promo2.jpg">
+                <p class="almostwhite h1 center" style="position: relative; top: -80px;"> Buy now and receive your goods in minutes!</p>
+            </div>
+            <div class="col2"> <img alt="Promo3" class="col2 rounded-img" src="images/promo3.jpg">
+                <p class="almostwhite h1 center" style="position: relative; top: -80px;">Top security in every transaction!</p>
+            </div>
+        </section>
 
-
-                <div id="middle" class="order-2 row px-md-0 mx-md-0 col-12 col-md-12  col-lg-6 col-md-6 col-xl-6 px-sm-0 px-lg-0 order-1 ">
-                    <div class="top-story d-flex flex-column col-12 order-0">
-                        <div class="block-title h6 text-secondary pl-0">TOP STORY</div>
-                        <article class="card2">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="card-img-top img-fluid feat-img" src="images/t1.PNG" alt="top story">
-                            <div class="card-body2">
-                                <h4 class="card-title">U.S. Has Plan to Send Tanks, Troops to 'Secure' Syria Oil Fields Amid Exit</h4>
-                                <p class="card-text h5">Newsweek has learned of a tentative U.S. plan to send about 30 tanks along with personnel to guard oil fields in eastern Syria as troops pulled out from other parts of the country.</p>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div id="culture-and-travel" class="order-3 order-xl-2 order-lg-2 col-12 mt-2 bg-light d-flex flex-d align-content-stretch flex-wrap mx-0 px-0 pt-2">
-                        <div class="pl-4 pl-0 block-title h6 text-secondary col-12 py-2 my-0">CULTURE & TRAVEL</div>
-                        <article class="card2col-12 col-md-6 col-xl-6 col-bg-6">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="card-img-top img-fluid feat-img" src="images/c1.PNG" alt="featured story">
-                            <div class="card-body2">
-                                <p class="card-title h5">Life Lessons I Learned From Being a Nomad for Ten Years
-                                    <p>
-                                        <p class="card-text text-secondary">Matt Kepnes, aka Nomadic Matt, traveled constantly for a decade—never hanging his hat in one place—learning some valuable lessons along the way.</p>
-                                        <a href="#" class="btn-secondary btn-sm">TRAVEL</a>
-                            </div>
-                        </article>
-
-                        <article class="card2 col-12 col-md-6 col-xl-6 col-bg-6">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="card-img-top img-fluid feat-img" src="images/c2.PNG" alt="featured story">
-                            <div class="card-body2">
-                                <h4 class="card-title h5">9 Craft Breweries Worth Traveling For</h4>
-                                <p class="card-text text-secondary">From well-established breweries in South Africa and California, to the burgeoning markets in Southeast Asia, local craft breweries have been on the rise.</p>
-                                <a href="#" class="btn-secondary btn-sm">CRAFT BEER</a>
-
-                            </div>
-                        </article>
-
-                        <article class="card2 col-12 col-md-6 col-xl-6 col-bg-6">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="card-img-top img-fluid feat-img" src="images/c3.PNG" alt="featured story">
-                            <div class="card-body2">
-                                <h4 class="card-title h5">The 5 Hippest Hotels in London</h4>
-                                <p class="card-text text-secondary">London's hotel scene is a riot of diversity but these five hotels are sure bets every time.</p>
-                                <a href="#" class="btn-secondary btn-sm">TRAVEL</a>
-                            </div>
-                        </article>
-
-                        <article class="card2 col-12 col-md-6 col-xl-6 col-bg-6">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="card-img-top img-fluid feat-img" src="images/c4.PNG" alt="featured story">
-                            <div class="card-body2">
-                                <h4 class="card-title h5">Hidden Tracks: Stunning Trails Around the Globe</h4>
-                                <p class="card-text text-secondary">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                                <a href="#" class="btn-secondary btn-sm">TRAVEL</a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div id="more-stories" class="order-2 col-12 mt-2 mx-0 px-0 pt-2">
-                        <div class="pl-0 pl-0 block-title h6 text-secondary col-12 py-2 my-0">MORE STORIES</div>
-                        <article class="pl-0 ml-0 clearfix border border-left-0 border-right-0 py-3 border-bottom-0 border-secondary">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="pl-0 ml-0 float-left img-fluid feat-img col-5" src="images/ms1.PNG" alt="featured story">
-                            <p class="h6 float left">Warren's Economic Plans Would Not Make Recession Likelier: Ex-Fed Chair </p>
-                            <p class="tss text-secondary card-text">The Massachusetts senator and Democratic 2020 presidential candidate is pledging to overhaul the U.S. economy with a number of reforms.</p>
-                        </article>
-                        <article class="pl-0 ml-0 clearfix border border-left-0 border-right-0 py-3 border-bottom-0 border-secondary">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="pl-0 ml-0 float-left img-fluid feat-img col-5" src="images/ms2.PNG" alt="featured story">
-                            <p class="h6 float left">Trump Handed Putin Major Victories for Nothing: Former Ambassador to Russia </p>
-                            <p class="tss text-secondary card-text">Michael McFaul said President Donald Trump has "personalized" and "privatized" U.S. foreign policy at great cost to the country.</p>
-                        </article>
-                        <article class="pl-0 ml-0 clearfix border border-left-0 border-right-0 py-3 border-bottom-0 border-secondary">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="pl-0 ml-0 float-left img-fluid feat-img col-5" src="images/ms3.PNG" alt="featured story">
-                            <p class="h6 float left">California Wildfire Map: Kincade, Waterman Canyon, Palisades Fire Locations</p>
-                            <p class="tss text-secondary card-text">Officials urged residents to remain alert and prepare to leave because high Santa Ana winds could cause the fires to spread rapidly.</p>
-                        </article>
-                        <article class="pl-0 ml-0 clearfix border border-left-0 border-right-0 py-3 border-bottom-0 border-secondary">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="pl-0 ml-0 float-left img-fluid feat-img col-5" src="images/ms4.PNG" alt="featured story">
-                            <p class="h6 float left">Giuliani's Ukraine Actions for Trump Are 'Highest of High Crimes': Law Professor </p>
-                            <p class="tss text-secondary card-text">The former New York City mayor was acting in a personal capacity on behalf of President Donald Trump while pursuing Ukraine conspiracy theories.</p>
-                        </article>
-                        <article class="pl-0 ml-0 clearfix border border-left-0 border-right-0 py-3 border-bottom-0 border-secondary">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="pl-0 ml-0 float-left img-fluid feat-img col-5" src="images/ms5.PNG" alt="featured story">
-                            <p class="h6 float left">Russia Shows Off New Syria Map, Sends Troops to Border After Turkey Deal</p>
-                            <p class="tss text-secondary card-text">The Russian Defense Ministry released a new map following the country's deal with Turkey to pause military operations and facilitate the withdrawal of Kurdish-led forces from northeastern Syria.</p>
-                        </article>
-                        <article class="pl-0 ml-0 clearfix border border-left-0 border-right-0 py-3 border-bottom-0 border-secondary">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="pl-0 ml-0 float-left img-fluid feat-img col-5" src="images/ms6.PNG" alt="featured story">
-                            <p class="h6 float left">Senator: U.S. Right to Withdraw Syria Troops If Turkey Planned Genocide </p>
-                            <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                        </article>
-                        <article class="pl-0 ml-0 clearfix border border-left-0 border-right-0 py-3 border-bottom-0 border-secondary">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="pl-0 ml-0 float-left img-fluid feat-img col-5" src="images/ms7.PNG" alt="featured story">
-                            <p class="h6 float left">Trump's Mental Impairment Means He Can't Think Strategically: Psychiatrist</p>
-                            <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                        </article>
-                        <article class="pl-0 ml-0 clearfix border border-left-0 border-right-0 py-3 border-bottom-0 border-secondary">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="pl-0 ml-0 float-left img-fluid feat-img col-5" src="images/ms8.PNG" alt="featured story">
-                            <p class="h6 float left">Babies Can Process Numbers Before They Can Count </p>
-                            <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                        </article>
-                        <article class="pl-0 ml-0 clearfix border border-left-0 border-right-0 py-3 border-bottom-0 border-secondary">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="pl-0 ml-0 float-left img-fluid feat-img col-5" src="images/ms9.PNG" alt="featured story">
-                            <p class="h6 float left">Hidden Tracks: Stunning Trails Around the Globe </p>
-                            <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                        </article>
-                        <article class="pl-0 ml-0 clearfix border border-left-0 border-right-0 py-3 border-secondary">
-                            <h3 class="d-none">featured article</h3>
-                            <img class="pl-0 ml-0 float-left img-fluid feat-img col-5" src="images/ms10.PNG" alt="featured story">
-                            <p class="h6 float left">Babies Can Process Numbers Before They Can Count </p>
-                            <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                        </article>
-                    </div>
-                </div>
+        <section class="margin-left-10 margin-right-10 margin-top-10">
+            <h3 class="inline">PETS</h3>
+            <button class="center background-gray regular-button background-gray">See All</button>
+            <div class="bg-white grid5 margin-left-10 margin-right-10 margin-top-10">
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im1.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$98.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im2.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$841.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im3.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$518.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im4.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$418.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im5.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$33.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
             </div>
 
+        </section>
 
-            <div id="right" class="sticky1 mx-4 pt-3 ml-lg-3 col-12 px-lg-0 col-xl-3">
-                <div id="opinion" class="opinion">
-                    <div class="pl-0 pl-0 block-title h6 text-secondary col-11 py-2 my-0">OPINION</div>
-
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-md-2 col-lg-1 col-xl-3 col-xs-3 col-2 pl-0 ml-0 float-left img-fluid" src="images/o1.png">
-                        <h6 class="font-weight-bolder mb-0 pb-0">Trump Is the Most Principled President in Over a Century</h6>
-                        <p>BY SAM HILL</p>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-2">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-md-2 col-lg-1 col-xl-3 col-xs-3 col-2 pl-0 ml-0 float-left img-fluid" src="images/o2.png">
-                        <h6 class="font-weight-bolder mb-0 pb-0">Face It: Trump Will Keep Defying Subpoenas. Here's How We Can Make Presidents Obey</h6>
-                        <p>BY SAM HILL</p>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-md-2 col-lg-1 col-xl-3 col-xs-3 col-2 pl-0 ml-0 float-left img-fluid" src="images/o3.png">
-                        <h6 class="font-weight-bolder mb-0 pb-0">'Bernie or Bust' Is a Warning—Ignore It, and Trump Wins</h6>
-                        <p>BY SAM HILL</p>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-md-2 col-lg-1 col-xl-3 col-xs-3 col-2 pl-0 ml-0 float-left img-fluid" src="images/o2.png">
-                        <h6 class="font-weight-bolder mb-0 pb-0">Hillary Clinton's Right. Tulsi Gabbard Is a Russian Asset and Would Be a Perfect Republican Agent</h6>
-                        <p>BY SAM HILL</p>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-md-2 col-lg-1 col-xl-3 col-xs-3 col-2 pl-0 ml-0 float-left img-fluid" src="images/o4.png">
-                        <h6 class="font-weight-bolder mb-0 pb-0">An Investor Lost a Billion for a Sexist Speech. That's Good. But the Finance Sector Is Still Infected</h6>
-                        <p>BY SAM HILL</p>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 border-bottom-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-md-2 col-lg-1 col-xl-3 col-xs-3 col-2 pl-0 ml-0 float-left img-fluid" src="images/o1.png">
-                        <h6 class="font-weight-bolder mb-0 pb-0">Atatiana Jefferson Got the Death Penalty Simply for Being Black</h6>
-                        <p>BY SAM HILL</p>
-                    </article>
-                </div>
-
-                <div id="latest-news" class="latest-news">
-                    <div class="pl-0 pl-0 block-title h6 text-secondary col-12 pt-3 pb-1 my-0">LATEST NEWS</div>
-
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3> <img alt="opinion person" class="col-4 col-md-3 col-xl-4 col-lg-4 pl-0 ml-0 float-left img-fluid" src="images/ln1.PNG">
-                        <h6 class="font-weight-bolder mb-0 pb-0">Survivor Payton Leutner Speaks About Slenderman Stabbing</h6>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-4 col-md-3 col-xl-4 col-lg-4 pl-0 ml-0 float-left img-fluid" src="images/ln2.PNG">
-                        <h6 class="font-weight-bolder mb-0 pb-0">Watch Live As Gigantic 3,000-foot-wide Asteroid Zooms Past Earth</h6>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-4 col-md-3 col-xl-4 col-lg-4 pl-0 ml-0 float-left img-fluid" src="images/ln3.PNG">
-                        <h6 class="font-weight-bolder mb-0 pb-0">Our Privacy Nightmare and What Can Be Done About It</h6>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-4 col-md-3 col-xl-4 col-lg-4 pl-0 pl-0 ml-0 float-left img-fluid" src="images/ln4.PNG">
-                        <h6 class="font-weight-bolder mb-0 pb-0">Will Patrick Mahomes Play in Week 8 vs. Green Bay?</h6>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-4 col-md-3 col-xl-4 col-lg-4 pl-0 pl-0 ml-0 float-left img-fluid" src="images/ln5.PNG">
-                        <h6 class="font-weight-bolder mb-0 pb-0">8 Ways to Protect Your Home From Hackers</h6>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-4 col-md-3 col-xl-4 col-lg-4 pl-0 pl-0 ml-0 float-left img-fluid" src="images/ln6.PNG">
-                        <h6 class="font-weight-bolder mb-0 pb-0">There's Billions of Internet-connected Devices Around Us—Can We Trust Them?</h6>
-                    </article>
-                    <article class="clearfix border border-secondary border-left-0 border-right-0 border-bottom-0 border-top-0 py-3">
-                        <h3 class="d-none">featured article</h3><img alt="opinion person" class="col-4 col-md-3 col-xl-4 col-lg-4 pl-0 pl-0 ml-0 float-left img-fluid" src="images/ln3.PNG">
-                        <h6 class="font-weight-bolder mb-0 pb-0">Antarctic Ice Shelves Have Been Thinning for 300 Years</h6>
-                    </article>
-                </div>
-
-                <div id="sponsor" class="sponsor row col-12 col-md-12 m-auto pt-md-4">
-                    <article class="card2 col-12 my-4 border border-sec m-auto">
-                        <h3 class="d-none">featured article</h3><img class="card-img-top img-fluid feat-img" src="images/sp3.PNG" alt="featured story">
-                        <div class="card-body2">
-                            <h4 class="card-title h5">Leaders of Qatar, Part 1</h4>
-                            <p class="card-text">Qatar is one of the fast-growing regional economies and among the most promising in the MENA region, maintaining balanced growth rates despite various global challenges.</p>
-                        </div>
-                    </article>
-                    <article class="card2 col-12">
-                        <h3 class="d-none">featured article</h3> <img alt="sign up" class="card-img-top img-fluid feat-img" src="images/signup.PNG">
-                    </article>
-                    <article class="card2 col-12 my-4 border border-sec">
-                        <h3 class="d-none">featured article</h3><img class="card-img-top img-fluid feat-img" src="images/sp4.PNG" alt="featured story">
-                        <div class="card-body2">
-                            <h4 class="card-title h5">What Can a Degree in Public Health Do For You?</h4>
-                            <p class="card-text">The field of public health is a powerful draw for those who feel inspired to make a positive difference in their communities. Find out more.</p>
-                        </div>
-                    </article>
-                </div>
+        <section class="margin-left-10 margin-right-10 margin-top-10">
+            <h3 class="inline">HOME</h3>
+            <button class="center background-gray regular-button background-gray">See All</button>
+            <div class="bg-white grid5 margin-left-10 margin-right-10 margin-top-10">
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im11.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$98.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im12.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$841.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im13.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$518.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im14.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$418.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im15.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$33.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
             </div>
-        </div>
+
+        </section>
+
+        <section class="margin-left-10 margin-right-10 margin-top-10">
+            <h3 class="inline">PE</h3>
+            <button class="center background-gray regular-button background-gray">See All</button>
+            <div class="bg-white grid5 margin-left-10 margin-right-10 margin-top-10">
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im1.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$98.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im2.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$841.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im3.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$518.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im4.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$418.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+                <article class="col1 border padding-10">
+                    <img alt="article" class="margin-auto" src="images/im5.PNG">
+                    <div class="name center">Fancy Feast · Alimento para gato petits filets salmón</div>
+                    <div class="price center"><span class="center">MX$33.00</span></div>
+                    <button class=" center small-button bg-red d-block">See Promo</button>
+                    <button class="add bg-white regular-button background-gray d-block">Add</button>
+                </article>
+            </div>
+
+        </section>
+
+
     </main>
 
-    <div id="bottom-half" class="row90 row m-auto">
-        <div class="1st-col col-xl-3 col-lg-3 col-md-3 col-11 pt-4">
-            <img alt="magazzine" class="px-0 col-12" src="images/m1.PNG">
-            <article class="pt-5 mt-4">
-                <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/m2.PNG">
-                <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-            </article>
-        </div>
 
-        <div class="2nd-col col-xl-3 col-lg-3 col-md-3 col-11">
-            <article class="py-5">
-                <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/m3.PNG">
-                <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-            </article>
-            <article class="py-0">
-                <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/m4.PNG">
-                <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-            </article>
-        </div>
-
-        <div class="3rd-col col-xl-3 col-lg-3 col-md-3 col-11">
-            <img alt="magazzine" class="w200 col-12 mx-auto mt-2 order-sm-0 order-xs-0" src="images/inthemagazzine.PNG">
-            <article class="py-0">
-                <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/m5.PNG">
-                <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-            </article>
-            <article class="py-5">
-                <img alt="magazzine1" class=" mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/m6.PNG">
-                <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-            </article>
-        </div>
-
-        <div class="4th-col col-xl-3 col-lg-3 col-md-3 col-12">
-            <article class="py-5">
-                <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/m7.PNG">
-                <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-            </article>
-            <article class="py-0">
-                <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/m8.PNG">
-                <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-            </article>
-        </div>
-    </div>
-
-
-    <div id="editors-pick" class="row90 row m-auto mt-4 pt-4 pb-4 border-special">
-        <div class="col-12">
-            <img alt="editors" class="ed11 mx-auto mt-2" src="images/editors.PNG">
-        </div>
-
-
-        <section class="row">
-            <h5 class="d-none">Pence presidency</h5>
-            <div class="1st-col col-xl-3 col-lg-6 col-12 col-md-6 pt-4">
-                <article class="py-4">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/e1.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-                    <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-
-                </article>
-                <article class="py-0">
-                    <img alt="magazzine1" class="mt-4 mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/e2.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-                    <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                </article>
-            </div>
-
-            <div class="2nd-col col-xl-3 col-lg-6 col-12 col-md-6">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/e3.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-                    <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                </article>
-                <article class="py-0">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/e4.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-                    <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                </article>
-            </div>
-
-            <div class="3rd-col col-xl-3 col-lg-6 col-12 col-md-6">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/e5.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-                    <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                </article>
-                <article class="py-0">
-                    <img alt="magazzine1" class=" mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/e6.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-                    <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                </article>
-            </div>
-
-            <div class="4th-col col-xl-3 col-lg-6 col-12 col-md-6">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/e7.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-                    <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                </article>
-                <article class="py-0">
-                    <img alt="magazzine1" class="mx-0 px-0  col-12 card-img-top img-fluid feat-img" src="images/e8.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-                    <p class="tss text-secondary card-text">The need to unplug is greater than ever—and there is no better way to do so than in the wild where there are no distractions, no vehicles and no cell phone signal.</p>
-                </article>
-            </div>
-        </section>
-    </div>
-
-
-    <div id="slideshow" class="row90 row m-auto mt-3 py-3 border-special">
-        <div class="col-12">
-            <img alt="slideshow" class="mx-auto mt-2 ed11" src="images/featuredslide.PNG">
-        </div>
-
-
-        <section class="row">
-                <h5 class="d-none">Pence presidency</h5>
-
-            <div class="1st-col col-xl-4 col-lg-4 col-md-4 col-12 pt-4">
-                <article class="py-4">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/fs1.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">Our Cosplay Favorites from NYCC 2019</a></h4>
-
-                </article>
-                <article class="pt-4">
-                    <img alt="magazzine1" class="mt-4 mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/fs2.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">The Great Alone: Walking the Pacific Crest Trail</a></h4>
-                </article>
-            </div>
-
-            <div class="2nd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/fs3.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">Cruise the Galapagos While Conserving Wildlife Found Nowhere Else</a></h4>
-                </article>
-                <article class="py-2">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/fs4.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">The New Documentary Trying to Save the Most Trafficked Mammals in the World</a></h4>
-                </article>
-            </div>
-
-            <div class="3rd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/fs5.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">American Masterpieces: Singular Expressions of National Genius</a></h4>
-                </article>
-                <article class="py-2">
-                    <img alt="magazzine1" class=" mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/fs6.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?</a></h4>
-                </article>
-            </div>
-
-        </section>
-    </div>
-
-    <div id="us" class="row m-auto mt-3 py-3 row90 border-special">
-        <div class="col-12">
-            <p class="h2 font-weight-bolder text-dg"> U.S. </p>
-        </div>
-
-
-        <section class="row">
-            <div class="1st-col col-xl-4 col-lg-4 col-12 col-md-4 pt-4">
-                <article class="py-4">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/us1.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">Our Cosplay Favorites from NYCC 2019</a></h4>
-
-                </article>
-            </div>
-
-            <div class="2nd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/us2.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">Cruise the Galapagos While Conserving Wildlife Found Nowhere Else</a></h4>
-                </article>
-            </div>
-
-            <div class="3rd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="row pt-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/us3.PNG">
-                    <h4 class="col-8 h6 font-weight-bolder"><a class="text-dark" href="#">
-                            Judge Rules Petition Against Natural Hair Offensive, Not Discriminatory</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/us4.PNG">
-                    <h4 class="col-8 h6 font-weight-bolder"><a class="text-dark" href="#">PG&E Announces More Planned California Blackouts as Wildfires Rage</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/us5.PNG">
-                    <h4 class="col-8 h6 font-weight-bolder"><a class="text-dark" href="#">Trump Threatens to Sue Democrats and 'Shifty Adam Schiff' for Fraud</a></h4>
-                </div>
-            </div>
-
-        </section>
-    </div>
-
-    <div id="world" class="row m-auto mt-3 py-3 row90 border-special">
-        <div class="col-12">
-            <p class="h3 font-weight-bolder text-dg"> World</p>
-        </div>
-
-
-        <section class="row">
-            <div class="1st-col col-xl-4 col-lg-4 col-md-4 col-12 pt-4">
-                <article class="py-4">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/w1.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">Trump Organization Exec Gives Public Address at Extremist Church</a></h4>
-
-                </article>
-            </div>
-
-            <div class="2nd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/w2.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">New Climate Change Lawsuits Plague Oil Industry During Rough Week</a></h4>
-                </article>
-            </div>
-
-            <div class="3rd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="row pt-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/w5.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">Migrating Eagles Run Up Huge Cell Phone Bill for Russian Researchers</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/w3.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">Russia 'Definitely Concerned' Over U.S. Keeping Troops in Syria Oil Fields</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/w4.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">
-                            Woman Fakes Pregnancy to Try and Avoid $40 Airline Excess Baggage Fees</a></h4>
-                </div>
-            </div>
-
-        </section>
-    </div>
-
-    <div id="b2" class="row m-auto mt-3 py-3 row90 border-special">
-        <div class="col-12">
-            <p class="h3 font-weight-bolder text-dg"> Business</p>
-        </div>
-
-
-        <section class="row">
-            <div class="1st-col col-xl-4 col-lg-4 col-md-4 col-12 pt-4">
-                <article class="py-4">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/b1.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">Trump Organization Exec Gives Public Address at Extremist Church</a></h4>
-
-                </article>
-            </div>
-
-            <div class="2nd-col col-xl-4 col-lg-4  col-md-4 col-12">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/b2.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">New Climate Change Lawsuits Plague Oil Industry During Rough Week</a></h4>
-                </article>
-            </div>
-
-            <div class="3rd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="row pt-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/b5.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">Migrating Eagles Run Up Huge Cell Phone Bill for Russian Researchers</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/b3.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">Russia 'Definitely Concerned' Over U.S. Keeping Troops in Syria Oil Fields</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/b4.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">
-                                Woman Fakes Pregnancy to Try and Avoid $40 Airline Excess Baggage Fees</a></h4>
-                </div>
-            </div>
-
-        </section>
-    </div>
-
-    <div id="tech" class="row m-auto mt-3 py-3 row90 border-special">
-        <div class="col-12">
-            <p class="h3 font-weight-bolder text-dg"> Tech & Science</p>
-        </div>
-
-
-        <section class="row">
-            <div class="1st-col col-xl-4 col-lg-4 col-md-4 col-12 pt-4">
-                <article class="py-4">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/ts1.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">Trump Organization Exec Gives Public Address at Extremist Church</a></h4>
-
-                </article>
-            </div>
-
-            <div class="2nd-col col-xl-4 col-lg-4  col-md-4 col-12">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/ts2.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">New Climate Change Lawsuits Plague Oil Industry During Rough Week</a></h4>
-                </article>
-            </div>
-
-            <div class="3rd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="row pt-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/ts5.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">Migrating Eagles Run Up Huge Cell Phone Bill for Russian Researchers</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/ts3.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">Russia 'Definitely Concerned' Over U.S. Keeping Troops in Syria Oil Fields</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/ts4.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">
-                                    Woman Fakes Pregnancy to Try and Avoid $40 Airline Excess Baggage Fees</a></h4>
-                </div>
-            </div>
-
-
-        </section>
-    </div>
-
-
-    <div id="culture" class="row m-auto mt-3 py-3 row90 border-special">
-        <div class="col-12">
-            <p class="h3 font-weight-bolder text-dg"> Culture</p>
-        </div>
-
-
-        <section class="row">
-            <div class="1st-col col-xl-4 col-lg-4 col-md-4 col-12 pt-4">
-                <article class="py-4">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/cu1.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">Six Flags to Host Largest-Ever Screening of 'Rocky Horror Picture Show'</a></h4>
-
-                </article>
-            </div>
-
-            <div class="2nd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/cu2.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">New Climate Change Lawsuits Plague Oil Industry During Rough Week</a></h4>
-                </article>
-            </div>
-
-            <div class="3rd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="row pt-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/cu5.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">Migrating Eagles Run Up Huge Cell Phone Bill for Russian Researchers</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/cu3.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">Russia 'Definitely Concerned' Over U.S. Keeping Troops in Syria Oil Fields</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/cu4.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">
-                                        Woman Fakes Pregnancy to Try and Avoid $40 Airline Excess Baggage Fees</a></h4>
-                </div>
-            </div>
-
-
-        </section>
-    </div>
-
-    <div id="sports" class="row m-auto mt-3 py-3 w90 border-special">
-        <div class="col-12">
-            <p class="h3 font-weight-bolder text-dg"> Sports</p>
-        </div>
-
-
-        <section class="row mx-auto">
-            <div class="1st-col col-xl-4 col-lg-4 col-md-4 col-12 pt-4">
-                <article class="py-4">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/spo1.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">Six Flags to Host Largest-Ever Screening of 'Rocky Horror Picture Show'</a></h4>
-
-                </article>
-            </div>
-
-            <div class="2nd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <article class="py-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-12 card-img-top img-fluid feat-img" src="images/spo2.PNG">
-                    <h4 class="card-title h6 font-weight-bolder"><a class="text-dark" href="#">New Climate Change Lawsuits Plague Oil Industry During Rough Week</a></h4>
-                </article>
-            </div>
-
-            <div class="3rd-col col-xl-4 col-lg-4 col-md-4 col-12">
-                <div class="row pt-5">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/spo5.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">Migrating Eagles Run Up Huge Cell Phone Bill for Russian Researchers</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/spo3.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">Russia 'Definitely Concerned' Over U.S. Keeping Troops in Syria Oil Fields</a></h4>
-                </div>
-                <div class="row pt-1">
-                    <img alt="magazzine1" class="mx-0 px-0 col-4 card-img-top img-fluid feat-img" src="images/spo4.PNG">
-                    <h4 class="col-7 h6 font-weight-bolder"><a class="text-dark" href="#">
-                                            Woman Fakes Pregnancy to Try and Avoid $40 Airline Excess Baggage Fees</a></h4>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <div class="row border-top pt-4 w100">
-        <div class="mx-auto col-lg-7 col-xl-7 col-12">
-            <p class="h5 text-dg font-weight-bolder col-2">SUBSCRIBE</p>
-            <img alt="subscribe2" class="col-12" src="images/subscribe1.PNG">
-        </div>
-        <div class="mx-auto col-lg-4 col-xl-4 col-12">
-            <p class="h5 text-dg font-weight-bolder col-2">NEWSLETTER</p>
-            <img alt="subscribe2" class="col-12" src="images/nesletter2.PNG">
-        </div>
-    </div>
-
-    <footer class="footer row border-top py-4 w100">
-        <div class="col-12 col-lx-12 d-flex justify-content-between align-items-baseline border-bottom">
-            <img alt="subscribe2" src="images/nw1.PNG" class="float-left">
-            <img alt="subscribe2" src="images/nw2.PNG" class="float-right">
-        </div>
-
-        <div class="row">
-            <div class=" px-4 mx-2 col-12 col-md-5 col-xl-5 col-lg-5">
-                <nav>
-                    <ul class="nav col-12">
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">About Us</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Corrections</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Contact Us</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Editorial Guidlines</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Advertise</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Copyright</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Terms and Conditions</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Privacy Policy</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Cookie Policy</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Terms of Sale</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Archive</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Announcements</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Consent preferences</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div class="footerbtm col-12 col-md-5 col-lg-5 col-xl-5">
-                <nav>
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link flin font-weight-bolder"  href="#">Editions:</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">U. S. Edition</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">日本</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">한국</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Pakistan</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">Polska</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link flin" href="#">România</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </footer>
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
+
 
 </html>
