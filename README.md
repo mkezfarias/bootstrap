@@ -56,7 +56,7 @@
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
- <img src="images/bootstrap.gif" alt="Logo" width="500" height="300">
+ <img src="bootstrap.gif" alt="Logo" width="500" height="300">
 
 
 <!-- ABOUT THE PROJECT -->
