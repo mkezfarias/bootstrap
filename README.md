@@ -37,7 +37,7 @@
     <a href="https://github.com/mkezmkez/bootstrap"><strong>Explore the docs »</strong></a>
 <br>
 <br> 
-    <a href="https://raw.githack.com/mkezmkez/bootstrap/boot/index.html">View Demo</a>
+    <a href="https://mkezmkez.github.io/bootstrap/">View Demo</a>
 <br> 
     <a href="https://github.com/mkezmkez/bootstrap/issues">Request Feature</a>
   </p>
