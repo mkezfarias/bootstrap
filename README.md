@@ -39,7 +39,7 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+* [Acknowledgments](#acknowledgments)
 
  <img src="bootstrap.gif" alt="Logo" width="500" height="300">
 
@@ -47,10 +47,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this project, I created a clone of the responisve newsweek website using bootstrap, CSS properties, semantic HTML. The project was based in the layout of newsweek  website <a href="https://www.newsweek.com/"> View Source </a>
+In this project, I created a clone of the responsive Newsweek website using bootstrap, CSS properties, semantic HTML. The project was based in the layout of Newsweek  website <a href="https://www.newsweek.com/"> View Source </a>
 <br>
 <br>
-For more details about the YouTube Project and it's requirements go to <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap"> The Odin Project</a>
+For more details about the project and its requirements go to <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap"> The Odin Project</a>
 
 ### Built With
 
@@ -79,26 +79,26 @@ You may open the project in your favorite browser to see a live version.
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what makes the open-source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 <!-- LICENSE -->
 ## License
 
-No licenses required as project was developed in educational eviroment.
-
+Open License
 
 <!-- CONTACT -->
 ## Contact
 
 Luis Puente - [@mkezmkez](https://twitter.com/mkezkmez) - puente.luism@gmail.com
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
 * [LUIS PUENTE](https://github.com/mkezmkez)
+Linkedin(https://www.linkedin.com/in/luis-puente-431114191/)
