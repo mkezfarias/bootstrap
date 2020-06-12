@@ -101,4 +101,4 @@ Luis Puente - [@mkezmkez](https://twitter.com/mkezkmez) - puente.luism@gmail.com
 ## Acknowledgments
 
 * [LUIS PUENTE](https://github.com/mkezmkez)
-Linkedin(https://www.linkedin.com/in/luis-puente-431114191/)
+[Linkedin](https://www.linkedin.com/in/luis-puente-431114191/)
