@@ -1,18 +1,3 @@
-<!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo, twitter_handle, email
--->
-
-
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -80,7 +65,15 @@ For more details about the YouTube Project and it's requirements go to <a href="
 
 To get a local copy up and running follow these simple steps.
 
-Clone or fork the repo <https://github.com/mkezmkez/bootstrap>
+Clone the repo from the terminal in your projects folder
+````
+$ git clone git@github.com:mkezmkez/bootstrap.git
+````
+CD into the folder
+````
+$ cd bootstrap
+````
+You may open the project in your favorite browser to see a live version.
 
 
 <!-- CONTRIBUTING -->
@@ -94,8 +87,6 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -106,10 +97,6 @@ No licenses required as project was developed in educational eviroment.
 ## Contact
 
 Luis Puente - [@mkezmkez](https://twitter.com/mkezkmez) - puente.luism@gmail.com
-Currently not partered. Authorized by Student Success to complete project solo (by Willow Mata)
-Project Link: [github.com/mkezmkez/design-teardown](https://github.com/mkezmkez/design-teardown)
-
-
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
