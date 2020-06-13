@@ -47,8 +47,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this project, I created a clone of the responsive Newsweek website using bootstrap, CSS properties, semantic HTML. The project was based in the layout of Newsweek  website <a href="https://www.newsweek.com/"> View Source </a>
+This is a school project. The goal is to replicate the layout of Newsweek  website <a href="https://www.newsweek.com/"> View Source </a>
 <br>
+It was created using Bootstrap, CSS, and HTML.
 <br>
 For more details about the project and its requirements go to <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap"> The Odin Project</a>
 
